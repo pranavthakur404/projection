@@ -1,0 +1,166 @@
+.body {
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    background-image: url("../images/block1.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding-top: 10px;
+    padding-bottom: 106px;
+}
+
+.banner #mynavigation {
+    background: none;
+    border: none;
+}
+
+.banner #mynavigation .navbar-header a {
+    color: #ffffff;
+}
+
+.banner #mynavigation ul li a {
+    color: #ffffff;
+}
+
+#mynavigation .navbar-toggle:hover {
+    background: none
+}
+
+/* banner text start */
+
+.banner-text {
+    margin-top: 70px;
+}
+
+.banner-text h1 {
+    color: #ffffff;
+}
+
+.mybox .fa {
+    color: #68b78b;
+    font-size: 20px;
+}
+
+.mybox h3 {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.mybox p {
+    color: silver;
+    margin-bottom: 0px;
+}
+
+.mybox-border {
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+}
+
+.three-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.three-section .button{
+    font-family: 'Lato', sans-serif;
+    background: none;
+    color: #68b78b;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid #68b78b;
+    padding: 8px 40px;
+    border-radius: 60px;
+    margin-top: 50px;
+}
+
+/* two section start here */
+.two-section{
+    padding: 50px 0;
+}
+
+.section-left{
+    width: 95%;
+}
+.section-right{
+    width:95%;
+    margin-left: 5%;
+}
+
+.section-left img, .section-right img{
+    width:30%;
+    border-radius:100%;
+}
+.section-left h3, .section-right h3{
+    color: rgb(63, 62, 62);
+    line-height:35px;
+}
+
+.section-left p, .section-right p{
+    color: lightslategray;
+    line-height: 22px;
+    margin-top:25px;
+}
+.two-section .button{
+    background:none;
+    color:#68b78b;
+    border:3px solid #68b78b;
+    padding:10px 40px;
+    border-radius:20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-top:25px;
+}
+
+/* form start here */
+
+.form{
+    width: 100%;
+    color: #FFF;
+    background-color: #68b78b;
+    padding: 60px 0;
+}
+
+.form #myform input{
+    background: none;
+    border:1px solid #FFF;
+}
+.form #myform input::placeholder{
+    color: #FFF;
+}
+
+.form #myform textarea{
+    background: none;
+     border: 1px solid #FFF;
+}
+.form #myform textarea::placeholder{
+    color: #FFF;
+}
+
+#myform button{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    background:none;
+    border:3px solid #FFF;
+    padding: 10px 40px;
+    border-radius:20px;
+}
+#myform p{
+    margin-top: 30px;
+}
+/* form ends here */
+
+
+
+/* media query */
+
+@media only screen and (max-width:992px){
+    .section-left{
+        width: 100%;
+    }
+    .section-right{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
