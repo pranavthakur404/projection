@@ -36,6 +36,15 @@
 .banner-text h1 {
     color: #ffffff;
 }
+/* banner ends text ends here*/
+
+.mybox{
+    transition:3s;
+}
+
+.mybox:hover{
+    transform:scale(1.2);
+}
 
 .mybox .fa {
     color: #68b78b;
