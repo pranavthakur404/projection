@@ -40,6 +40,7 @@
 
 .mybox{
     transition:2s;
+    margin-top:20px;
 }
 
 .mybox:hover{
