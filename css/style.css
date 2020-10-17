@@ -30,7 +30,7 @@
 /* banner text start */
 
 .banner-text {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .banner-text h1 {
@@ -40,7 +40,7 @@
 
 .mybox{
     transition:2s;
-    margin-top:20px;
+    margin-top:30px;
 }
 
 .mybox:hover{
